@@ -1,0 +1,10 @@
+[project]
+name = "hw7-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipython>=9.0.2",
+    "llm>=0.23",
+]
