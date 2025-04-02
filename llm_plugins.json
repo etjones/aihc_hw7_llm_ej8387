@@ -1,0 +1,16 @@
+[
+  {
+    "name": "llm-anthropic",
+    "hooks": [
+      "register_models"
+    ],
+    "version": "0.15.1"
+  },
+  {
+    "name": "llm-deepseek",
+    "hooks": [
+      "register_models"
+    ],
+    "version": "0.1.6"
+  }
+]
