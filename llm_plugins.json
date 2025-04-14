@@ -1,12 +1,5 @@
 [
   {
-    "name": "llm-deepseek",
-    "hooks": [
-      "register_models"
-    ],
-    "version": "0.1.6"
-  },
-  {
     "name": "llm-anthropic",
     "hooks": [
       "register_models"
@@ -20,6 +13,13 @@
       "register_embedding_models",
       "register_models"
     ],
-    "version": "0.16"
+    "version": "0.17"
+  },
+  {
+    "name": "llm-deepseek",
+    "hooks": [
+      "register_models"
+    ],
+    "version": "0.1.6"
   }
 ]
