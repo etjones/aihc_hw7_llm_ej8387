@@ -25,7 +25,7 @@ Here's the specific issue I used in generating further prompts and analysis:
 
 I used Brenda Griffith's [Siyeh Synthetic Medical Data](https://data.world/siyeh/synthetic-medical-data) dataset. 
 
-![right fit](assets/siyeh_dataset_page.png)
+![right fit](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/assets/siyeh_dataset_page.png?raw=true)
 
 ---
 
@@ -37,7 +37,7 @@ I used Brenda Griffith's [Siyeh Synthetic Medical Data](https://data.world/siyeh
 - Codeium's [Windsurf](https://windsurfai.org) AI-enabled IDE *radically* smooths friction for developing small-scale tools
 - [Deckset](www.deckset.com) for Markdown -> Slide deck generation
 
-![fit right](assets/llm_tool_page.png)
+![fit right](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/assets/llm_tool_page.png?raw=true)
 
 ---
 
@@ -47,11 +47,11 @@ I used Brenda Griffith's [Siyeh Synthetic Medical Data](https://data.world/siyeh
 
 - **BUT**, we don't need all that data; just the parts that describe diabetic patients
 
-- Using Windsurf, I wrote a data-filtering script, [`data_preparation.py`](data_preparation.py) to extract only Diabetes-relevant data from the original dataset.
+- Using Windsurf, I wrote a data-filtering script, [`data_preparation.py`](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/data_preparation.py) to extract only Diabetes-relevant data from the original dataset.
 
-- [`llm_data_loader.py`](llm_data_loader.py) digests that data and concatenates it into a single file  formatted for LLMs
+- [`llm_data_loader.py`](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/llm_data_loader.py) digests that data and concatenates it into a single file  formatted for LLMs
 
-![fit right](assets/llm_data_loader.format_data_for_llm.png)
+![fit right](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/assets/llm_data_loader.format_data_for_llm.png?raw=true)
 
 ---
 
@@ -96,14 +96,14 @@ and explain your reasoning.
 ---
 
 # Zero-shot results
-(Complete response [here](responses/zero_shot_response_1.md) (100 lines))
+(Complete response [here](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/responses/zero_shot_response_1.md) (100 lines))
 
 **Summary:**
 1. Insulin formulations and metformin demonstrate the strongest evidence for glycemic control. <br>
 2. Semaglutide shows promising results but has limited sample size. <br>
 3. Effectiveness varies by patient demographics and diabetes severity.
 
-![fit right](assets/zero_shot_response_1.html.pdf)
+![fit right](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/assets/zero_shot_response_1.html.pdf?raw=true)
 
 ---
 
@@ -149,14 +149,14 @@ Provide a comprehensive analysis of medication effectiveness for diabetic patien
 
 # Few-shot results
 
-See [`few_shot_response_1.md`](responses/few_shot_response_1.md) for complete response (62 lines) . 
+See [`few_shot_response_1.md`](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/responses/few_shot_response_1.md) for complete response (62 lines) . 
 
 **Summary:**
 1. Insulin formulations most effectively reduce HbA1c, while metformin shows strong, consistent glycemic control. <br>
 2. Combination therapies appear more effective than monotherapy for poorly controlled diabetes. <br>
 3. Medication effectiveness varies based on patient characteristics and diabetes severity. <br>
 
-![fit right](assets/few_shot_response_1.html.pdf)
+![fit right](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/assets/few_shot_response_1.html.pdf?raw=true)
 
 ---
 
@@ -206,14 +206,14 @@ Based on this step-by-step analysis, provide a detailed report on which medicati
 ---
 
 # Chain of Thought results
-(Complete response [here](responses/chain_of_thought_response_1.md) (70 lines))
+(Complete response [here](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/responses/chain_of_thought_response_1.md) (70 lines))
 
 **Summary:**
 1. Insulin formulations show best HbA1c reduction, while metformin offers consistent effectiveness with fewer side effects.<br>
 2. Patient demographics and comorbidities significantly impact medication effectiveness.<br>
 3. Limited sample sizes for most medications suggest caution in generalizing results.<br>
   
-![fit right](assets/chain_of_thought_response_1.html.pdf)
+![fit right](https://github.com/etjones/aihc_hw7_llm_ej8387/blob/main/assets/chain_of_thought_response_1.html.pdf?raw=true)
 
 ---
 
